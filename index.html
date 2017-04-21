@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CossiePlay</title>
+<link href="a1.css" rel="stylesheet" type="text/css">
+<script>
+	function run_first() {
+		var id_var = sessionStorage.li_id;
+		if(id_var) {
+			document.getElementById(id_var).style.backgroundColor = "gray";
+		}
+	}
+	
+	function nav_li_selected(li_id) {	
+		for(i = 0; i < 7; i++) {
+			document.getElementById(i.toString()).style.backgroundColor = "";
+		}
+		document.getElementById(li_id.toString()).style.backgroundColor = "gray";
+		
+		//store li_id in sessionStorage
+		sessionStorage.li_id = li_id.toString();		
+	}
+</script>
+
+</head>
+<body onLoad="run_first()">
+	<div id="wrapper">
+	<header>
+    	<img src="CossiePlay/images/party-1506740-640x480-new-new.jpg" alt="party">
+    	<h1>CossiePlay</h1>
+        <nav>
+        	<ul>
+            	<li><a href="#" id="0" onClick="nav_li_selected(0)">Home</a></li>
+                <li><a href="#" id="1" onClick="nav_li_selected(1)">Discount News</a></li>
+                <li><a href="#" id="2" onClick="nav_li_selected(2)">CossiePlay Party</a></li>
+                <li><a href="#" id="3" onClick="nav_li_selected(3)">Products</a></li>
+                <li><a href="#" id="4" onClick="nav_li_selected(4)">About Cosplay</a></li>
+                <li><a href="#" id="5" onClick="nav_li_selected(5)">About Us</a></li>
+                <li><a href="#" id="6" onClick="nav_li_selected(6)">contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+	<h1 style="font-size: 180%";>Welcome to CossiePlay</h1>
+    <section id="col1">
+    	<h2><font color="#E4196B">SUPRISE</font></h2>
+        <p>
+        <font size="+1" color="#4416A5">*Discount for this Month</font>
+        <br>This month you can purchase 3 drinks for the price of 2 at the bar.
+        <br><a href="discount.html" style="font-size:80%;">More Discount News</a>
+        </p>
+    </section>
+    <section id="col2">
+    	<h2>CossiePlay Party</h2>
+        <img src="CossiePlay/images/we-re-rabbits-1439192-1279x850-new-new.jpg" alt="party">
+        <p id="party">
+        <br>Date: Evety first Saturday of every month
+        <br>Place: The town hall
+        <br>Time: 6pm - 11pm 
+        <br id="party_detail"><a href="Party.html">More details  </a>
+        <a href="Contact.html" id="sign_up">Sign Up</a>
+        </p>
+    </section>
+    <section id="col3">
+    	<h2>Contact Us</h2>
+        <p>
+        	Phone: 07 4771 1234
+        	<br>Fax: 07-4771 1235
+        	<br>Email: <br>cossieplay@ gmail.com
+        </p>
+    </section>
+    <h3>Notice</h3>
+    <section id="col4">
+       	<h4><font-color: red>Security</font-color:></h4>
+        <p>
+        CossiePlay party-goers party at their own risk and are responsible for their own safety.        
+        <br>PLEASE check with your doctor before you party hard.
+        </p>
+    </section>
+    <section id="col5">
+        <h4>Pay</h4>
+        <p>
+        Party fees must be paid at the door. 
+        <br>Cash or EFTPOS accepted. 
+        <br>Credit card payments attract a 2% surcharge.
+        </p>
+    </section>
+    <section id="col6">
+        <h4>Alcohol Limited</h4>
+        <p>
+        Alcohol is served at the bar to over 18s only.
+        </p>
+    </section>
+    <section id="col7">
+        <h4>Intoxicated</h4>
+        <p>
+        No intoxicated persons will be served, but will be escorted to a taxi – paid by the party-goer. 
+        </p>
+    </section>
+    <footer>
+        <h5>Design By 007 - 2017</h5>
+    </footer>
+    </div>
+</body>
+</html>
