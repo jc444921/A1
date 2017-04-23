@@ -55,22 +55,24 @@ header nav ul li a:hover {
 #col2 {
 	width: 80%;
 	float: left;
-	height: 700px;
-	background-color:#FCC;
+	height: 480px;
+	background-color:#E6EF59;
 	margin: 5px;
 	padding: 5px;	
 }
 #col2 img {
-	float: left;
+	float: right;
 	margin: 0px 20px 5px 30px;
 }
 #this_month {
 	font-size: 110%;
 	margin-left: 20px;
-	margin-top: 80px;
+	margin-top: 20px;
 }
-#sign_up {
-	margin-right: 10px;
+#discount {
+	font-size: 110%;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 h3 {
 	clear: both;

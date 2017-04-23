@@ -41,70 +41,43 @@ header nav ul li a {
 header nav ul li a:hover {
 	color: yellow;
 }
+
+
 #col1 {
 	clear: both;
 	width: 15%;
 	float: left;
 	height: 200px;
 	background-color:#E6EF59;
-	margin: 5px 5px 5px 50px;
-	padding: 5px;
-}
-#col1 h3 {
-	background-color:#A2E4EA;
+	margin: 5px 5px 5px 100px;
 	padding: 5px;
 }
 #col2 {
-	width: 55%;
+	width: 60%;
 	float: left;
-	height: 640px;
-	background-color:#EEB7D6;
-	margin: 5px;
+	height: 530px;
+	background-color:#2DE46A;
+	margin: 5px 20px;
 	padding: 5px;	
 }
-#col2 section h2 {
-	margin-left: 20px;
-	font-size: 190%;
-}
 #col2 img {
-	float:center;
-	margin: 0px 20px 5px 50px;
+	float: left;
+	margin: 0px 20px 5px 40px;
 }
-#party {
+#made {
 	font-size: 110%;
 	margin-left: 20px;
+	margin-top: 20px;
 }
-#guidelines {
-	background-color: lightgreen;
-	font-size: 105%;
-	margin-left: 15px;
-}	
-#party_detail {
-	float: right;
-	margin-right: 200px;
-	padding-left: 20px;
+#fancy {
+	font-size: 180%;
 }
-#sign_up {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-#col3 {
-	width: 15%;
-	float: left;
-	height: 190px;
-	background-color: #3FF;
-	margin: 5px 30px 5px 5px;
-	padding: 5px;
-}
-#col3 h3 {
-	background-color:lightgreen;
-	margin: 2px;
-	padding: 10px;
+#second {
+	font-size: 180%;
 }
 h3 {
 	clear: both;
 	float: center;
-	background-color:#198AF3;
 	margin: 0 auto;
 }
 #col4 {
