@@ -41,102 +41,73 @@ header nav ul li a {
 header nav ul li a:hover {
 	color: yellow;
 }
+
+
 #col1 {
 	clear: both;
 	width: 15%;
 	float: left;
 	height: 200px;
 	background-color:#E6EF59;
-	margin: 5px;
-	padding: 5px;
-}
-#col1 h3 {
-	background-color:#A2E4EA;
+	margin: 5px 5px 5px 20px;
 	padding: 5px;
 }
 #col2 {
-	width: 65%;
+	width: 80%;
 	float: left;
-	height: 640px;
-	background-color:#EEB7D6;
+	height: 1000px;
+	background-color:#FCC;
 	margin: 5px;
 	padding: 5px;	
 }
-#col2 section h2 {
-	margin-left: 20px;
-	font-size: 190%;
-}
 #col2 img {
+	float: left;
 	margin: 0px 20px 5px 30px;
 }
 #party {
 	font-size: 110%;
 	margin-left: 20px;
-}
-#guidelines {
-	background-color: lightgreen;
-	font-size: 105%;
-	margin-left: 15px;
-}	
-#party_detail {
-	float: right;
-	margin-right: 200px;
-	padding-left: 20px;
+	margin-top: 80px;
 }
 #sign_up {
-	margin-left: 10px;
+	margin-right: 10px;
 }
 #col3 {
-	width: 15%;
-	float: left;
-	height: 190px;
-	background-color: #3FF;
-	margin: 5px;
-	padding: 5px;
+	clear:both;
+	float:left;
+	height: 500px;
 }
-#col3 h3 {
-	background-color:lightgreen;
-	margin: 2px;
-	padding: 10px;
+#col3 img {
+	size: auto;
 }
 h3 {
 	clear: both;
 	float: center;
-	background-color:#198AF3;
 	margin: 0 auto;
 }
-#col4 {
-	width: 24%;
-	height:120px;
-	float: left;
-	border: solid #39F;
+#sign_up {
+	float:left;
+	height: 150px;
+	margin: 20px;
 	padding: 5px;
-}
-#col5 {
-	width: 24%;
-	height:120px;
-	float: left;
-	background-color: #39F;
-	border: solid #39F;
-	padding: 5px;
-}
-#col6 {
-	width: 24%;
-	height:120px;
-	float: left;
-	border: solid #39F;
-	padding: 5px;
-}
-#col7 {
-	width: 24.2%;
-	height:120px;
-	float: left;
-	background-color: #39F;
-	border: solid #39F;
-	padding: 5px;
-}
-footer h5 {
+}	
+h4 {
 	clear: both;
+	float: center;
+	margin: 0 auto;
+}
+#guidelines {
+	float:left;
+	height: 180px;
+	margin: 20px;
+	padding: 5px;
+}	
+#col2 h3 img {
+	float:right;
+}
+footer{
+	clear: both;
+	height: 15px;
 	font-size: 90%;
 	text-align: center;
 	background-color: gray;
