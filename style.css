@@ -1,0 +1,145 @@
+@charset "utf-8";
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+header {
+	background-color:#020655;
+	height: 110px;
+	color: white;
+	padding: 5px 20px;
+}
+header img {
+	float: left;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+header h1 {
+	font-size: 300%;
+	padding-left: 10px;
+	margin-left: 30px;
+}
+header nav ul{
+	background-color:#4416A5;
+	height: 25px;
+	float: right;
+	size: 120%;
+}
+header nav ul li {
+	list-style: none;
+	float: left;
+	color: white;
+}
+header nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: white;
+}
+header nav ul li a:hover {
+	color: yellow;
+}
+#col1 {
+	clear: both;
+	width: 15%;
+	float: left;
+	height: 200px;
+	background-color:#E6EF59;
+	margin: 5px 5px 5px 50px;
+	padding: 5px;
+}
+#col1 h3 {
+	background-color:#A2E4EA;
+	padding: 5px;
+}
+#col2 {
+	width: 55%;
+	float: left;
+	height: 640px;
+	background-color:#EEB7D6;
+	margin: 5px;
+	padding: 5px;	
+}
+#col2 section h2 {
+	margin-left: 20px;
+	font-size: 190%;
+}
+#col2 img {
+	float:center;
+	margin: 0px 20px 5px 50px;
+}
+#party {
+	font-size: 110%;
+	margin-left: 20px;
+}
+#guidelines {
+	background-color: lightgreen;
+	font-size: 105%;
+	margin-left: 15px;
+}	
+#party_detail {
+	float: right;
+	margin-right: 200px;
+	padding-left: 20px;
+}
+#sign_up {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#col3 {
+	width: 15%;
+	float: left;
+	height: 190px;
+	background-color: #3FF;
+	margin: 5px 30px 5px 5px;
+	padding: 5px;
+}
+#col3 h3 {
+	background-color:lightgreen;
+	margin: 2px;
+	padding: 10px;
+}
+h3 {
+	clear: both;
+	float: center;
+	background-color:#198AF3;
+	margin: 0 auto;
+}
+#col4 {
+	width: 24%;
+	height:120px;
+	float: left;
+	border: solid #39F;
+	padding: 5px;
+}
+#col5 {
+	width: 24%;
+	height:120px;
+	float: left;
+	background-color: #39F;
+	border: solid #39F;
+	padding: 5px;
+}
+#col6 {
+	width: 24%;
+	height:120px;
+	float: left;
+	border: solid #39F;
+	padding: 5px;
+}
+#col7 {
+	width: 24.2%;
+	height:120px;
+	float: left;
+	background-color: #39F;
+	border: solid #39F;
+	padding: 5px;
+}
+footer h5 {
+	clear: both;
+	font-size: 90%;
+	text-align: center;
+	background-color: gray;
+}
